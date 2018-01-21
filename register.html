@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RegisterHere!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background: whitesmoke">
+<section>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>
+                PROFILE DETAILS
+            </legend>
+            <span>NAME: </span><input type="text" name="name"  placeholder="YOUR FULL NAME HERE" required>
+            <span>COLLEGE: </span><input type="text" name="college"  placeholder="YOUR COLLEGE NAME"><br>
+            <span>DOB: </span><input type="date" name="dob"  placeholder="YOUR D.O.B.">
+            <span style="position: relative; left: 27px;">BRANCH: </span><select style="position: relative; left: 28px;" name="branch" required>
+            <option>Computer Science</option>
+            <option>Software Engineering</option>
+            <option>Information Technology</option>
+        </select><br>
+                <span>CHOOSE CENTER:</span><select name="center" required>
+            <option>PITAMPURA</option>
+            <option>DWARKA</option>
+        </select><br>
+            <button type="reset" style="margin-left: 350px;">RESET</button>
+
+
+        </fieldset>
+        <fieldset>
+            <legend>
+                CONTACT INFORMATION
+            </legend>
+            <span>EMAIL-ID: </span><input type="email" name="email"  placeholder="YOUR EMAIL ID" required><br>
+            <span>CONTACT NUMBER: </span><input type="number" name="number"  placeholder="YOUR CONTACT NUMBER"><br>
+            <span>ADDRESS: </span><input type="text" name="add" placeholder="YOUR ADDRESS" required><br>
+            <span>CITY: </span><input type="text" name="add" placeholder="CITY" required><br>
+            <span>COUNTRY: </span><select name="country" placeholder="COUNTRY" required>
+            <option>India</option>
+            <option>Pakistan</option>
+            <option>Nepal</option>
+            <option>Sri Lanka</option>
+        </select><br>
+            <button type="reset"  style="margin-left: 350px;">RESET</button>
+        </fieldset>
+        <fieldset>
+            <legend>ADDITIONAL INFORMATION</legend>
+            <input type="checkbox" name="sub"><span style="width: 500px; text-align: left">WANT TO SUBSCRIBE FOR OUR NEWSLETTER?</span><br>
+            <input type="checkbox" name="terms"><span style="width: 500px; text-align: left">AGREE TO OUR TERMS AND CONDITIONS</span><br>
+            <span style="width: 400px; text-align: left;position: relative; left:20px;">SOMETHING ABOUT YOU:</span><br><textarea name="about" placeholder="Something About You..." style="height: 150px; width: 400px; margin-left:40px;"></textarea>
+        </fieldset>
+        <input type="button" value="SUBMIT" style="margin:30px 620px ; padding: 10px;">
+
+
+    </form>
+
+</section>
+</body>
+</html>
